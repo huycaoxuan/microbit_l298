@@ -9,13 +9,31 @@ radio.onReceivedNumber(function (receivedNumber) {
             `)
         Tien()
     } else if (receivedNumber == 2) {
-        basic.showArrow(ArrowNames.South)
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            # . # . #
+            . # # # .
+            . . # . .
+            `)
         Lui()
     } else if (receivedNumber == 3) {
-        basic.showArrow(ArrowNames.West)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            # . . . .
+            . . . . .
+            . . . . .
+            `)
         Trai()
     } else if (receivedNumber == 4) {
-        basic.showArrow(ArrowNames.East)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . #
+            . . . . .
+            . . . . .
+            `)
         Phai()
     } else if (receivedNumber == 5) {
         basic.showLeds(`
